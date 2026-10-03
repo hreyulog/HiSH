@@ -15,4 +15,4 @@ Linux/macOS：
 HISH_TYPESCRIPT=/path/to/typescript node --test test/port-mappings.test.cjs
 ```
 
-这些测试验证配置逻辑；不包含 QEMU 网络、ArkUI 输入事件或设备运行验证。
+这些主机测试验证配置逻辑。完整 HiSH 的独立真机验收、输入检查、QEMU 网络与打包边界另见 [DEVICE.md](validation/2026-10-03/DEVICE.md)。
